@@ -1,0 +1,12 @@
+body {
+    background: #fff url(../img/logo_adobe.png) top right no-repeat fixed;
+}
+
+.deck-container .slide.product_image {
+    background: #fff;
+}
+
+.deck-container .slide.quote {
+    color: #fff;
+    background: #ff0000;
+}

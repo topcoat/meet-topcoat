@@ -1,0 +1,12 @@
+.adobe-logo {
+    position: absolute;
+    right: 0;
+    height: 79px;
+    width: 100px;
+    background: url(../img/logo_adobe.png) top right no-repeat fixed;
+    z-index: 100;
+}
+
+.deck-container {
+    font-family: 'SourceSans';
+}

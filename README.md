@@ -1,4 +1,4 @@
-meet-topcoat
+Meet-TopCoat
 ============
 
-TopCoat Slides
+TopCoat intro slide deck

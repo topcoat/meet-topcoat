@@ -1,0 +1,45 @@
+body {
+    background: #fff url(../img/logo_adobe.png) top right no-repeat fixed;
+}
+
+.slide h1 {
+    font-weight: 500;
+}
+.deck-container {
+    color: #454545;
+    background: #e5e9e8;
+    text-shadow: 0 1px #ffffff;
+}
+
+.deck-container .sub-slide {
+    font-style: italic;
+}
+
+.behind {
+    z-index: -1000;
+}
+
+.deck-container a {
+    color: #454545;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.deck-container a:hover {
+    color: #288edf;
+}
+
+.kern {
+    letter-spacing: -0.15em;
+}
+
+.deck-container > .product_image {
+    background: #fff;
+}
+
+.deck-container > .quote {
+    color: #fff;
+    font-style: italic;
+    background: #288edf;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.36);
+}
