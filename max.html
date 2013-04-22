@@ -87,18 +87,6 @@
 
 <section class="slide">
 	<h1>
-        Accelerate design
-	</h1>
-</section>
-
-<section class="slide">
-	<h1>
-        Convey humanity
-	</h1>
-</section>
-
-<section class="slide">
-	<h1>
         Clean Simple Clear
 	</h1>
 </section>
@@ -106,6 +94,9 @@
 <section class="slide">
 	<h1>
         Uncanny Valley
+        <section class="slide sub-slide">
+        	nope
+        </section>
 	</h1>
 </section>
 
@@ -207,22 +198,49 @@
 <section class="slide">
 	<h1>
 		<a href="https://github.com/topcoat/topcoat/wiki/Component-Architecture" title="TopCoat Subsets" target="_blank">
-			Component CSS
+			Component Oriented CSS
 		</a>
 	</h1>
 </section>
 
 <!--
 	Discuss the naming convention
-	Talk about Component Oriented CSS
 	Resets
+		Put the reset at the component level so that it can inherit from a theme as well as behave as a peice of a whole in the component
 	Cascade
+		Allows theme styles like font, font-weight, background color etc. to cascade intelligently instead of fighting with browser defaults.
+		This will happen at a component level instead of at a global or page level so that html elements will behave as expected when not
+		used in a component context
 -->
+
+<section class="slide">
+	<h1>
+		<a href="https://github.com/topcoat/topcoat/wiki/Component-Architecture" title="TopCoat Versioning" target="_blank">
+			Naming Convention
+			<section class="slide subslide">
+				<small>
+				  .button-group__button--large
+				</small>
+			</section>
+
+			<section class="slide subslide">
+				<small>
+				  .topcoat-button-group--large
+				</small>
+			</section>
+		</a>
+	</h1>
+</section>
 
 <section class="slide">
 	<h1>
 		<a href="https://github.com/topcoat/topcoat/wiki/Component-Architecture#wiki-themes" title="TopCoat Themes" target="_blank">
 			Themeing
+			<section class="slide subslide">
+				<small>
+				  theme-topcoat-mobile-light.styl
+				</small>
+			</section>
 		</a>
 	</h1>
 </section>
@@ -231,7 +249,18 @@
 	Should be easily customized.
 	Theme walk through
 	Convention over configuration
+		theme-*.styl
+		includes
+		variables are limited to a few that will cascade.
+		If more customization is needed you can edit the variables at a component level.
+		If even more is needed you can extend our resets and roll your own.
 -->
+
+<section class="slide quote">
+	<h1>
+	    Design is a craft to take great pride in
+	</h1>
+</section>
 
 <section class="slide">
     <h1>
@@ -247,7 +276,7 @@
 
 <section class="slide quote">
 	<h1>
-	    Fork it!
+		Fork it!
 	</h1>
 </section>
 
