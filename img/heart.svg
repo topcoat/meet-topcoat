@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="321px" height="272px" viewBox="0 0 321 272" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <title>Heart</title>
-    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
-    <defs></defs>
-    <g id="Page 1" fill="rgb(206,206,206)" fill-rule="evenodd">
-        <path d="M33.3798365,174.578481 L30,172 C11.7357591,153.810934 0,128.275984 0,100 C0,44.7715223 44.7715223,0 100,0 C122.737161,0 143.701963,7.58836457 160.5,20.3706865 C177.298037,7.58836457 198.262839,0 221,0 C276.228478,0 321,44.7715223 321,100 C321,128.275984 309.264241,153.810934 290.397561,172 L287.620164,174.578481 C283.744843,178.042662 279.597838,181.209275 275.214605,184.042695 L160.5,271.558594 L45.7853949,184.042695 C41.4021622,181.209275 37.2551571,178.042662 33.3798365,174.578481 Z M33.3798365,174.578481" id="Oval 1" fill="rgb(205,0,3)"></path>
-    </g>
-</svg>
