@@ -2,6 +2,10 @@ body {
     background: #fff url(../img/logo_adobe.png) top right no-repeat fixed;
 }
 
+.title {
+    letter-spacing: -0.065em;
+}
+
 .slide h1 {
     font-weight: 500;
 }

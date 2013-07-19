@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=1024, user-scalable=no">
+
+        <title>Topcoat</title>
+
+        <!-- Required stylesheet -->
+        <link rel="stylesheet" href="core/deck.core.css">
+
+        <!-- Extension CSS files go here. Remove or add as needed. -->
+        <link rel="stylesheet" href="extensions/goto/deck.goto.css">
+        <link rel="stylesheet" href="extensions/menu/deck.menu.css">
+        <!-- <link rel="stylesheet" href="extensions/navigation/deck.navigation.css"> -->
+        <link rel="stylesheet" href="extensions/status/deck.status.css">
+        <link rel="stylesheet" href="extensions/hash/deck.hash.css">
+        <link rel="stylesheet" href="extensions/scale/deck.scale.css">
+
+        <!-- Style theme. More available in /themes/style/ or create your own. -->
+        <link rel="stylesheet" href="themes/style/mnml.css">
+        <link rel="stylesheet" href="themes/style/fonts	.css">
+        <link rel="stylesheet" href="themes/style/adobe.css">
+        <link rel="stylesheet" href="themes/style/topcoat.css">
+
+        <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+        <link rel="stylesheet" href="themes/transition/fade.css">
+
+        <!-- Required Modernizr file -->
+        <script src="modernizr.custom.js"></script>
+    </head>
+    <body>
+
+        <div class="deck-container">
+
+            <section class="slide">
+            <div class="adobe-logo"></div>
+            <h1 class="title">
+                <span class="kern">T</span>opcoat ♡ PhoneGap
+            </h1>
+            </section>
+
+            <section class="slide quote">
+            <h1>
+                CSS for clean and fast web apps
+            </h1>
+            </section>
+
+            <section class="slide">
+            <h4>
+                topcoat.io
+            </h4>
+            <a href="http://topcoat.io" target="blank">
+                <img src="img/topcoat.io.png">
+            </a>
+            </section>
+
+            <section class="slide">
+            <h1>
+                Just CSS
+            </h1>
+            </section>
+
+            <section class="slide quote">
+            <h1>
+                The Backstory
+            </h1>
+            </section>
+
+            <section class="slide">
+            <h1>
+                <img src="img/phonegap.png">
+            </h1>
+            </section>
+
+            <section class="slide">
+            <h1>
+                <a href="https://github.com/topcoat/design" target="blank">
+                    <img src="img/mobile_styleguide.png">
+                </a>
+            </h1>
+            </section>
+
+            <section class="slide">
+            <h1 class="title">
+                <span class="kern">T</span>opdoc
+            </h1>
+            </section>
+
+            <section class="slide">
+            <h4>
+                Usage Guides
+            </h4>
+            <a href="http://topcoat.io/topcoat/topcoat-mobile-light.html" target="blank">
+                <img src="img/usage_guides.png">
+            </a>
+            </section>
+
+            <section class="slide quote">
+            <h1>
+                Users don't care if it's native or web as long as the app is fast and responsive
+            </h1>
+            </section>
+
+            <section class="slide">
+            <h1>
+                Performance First
+            </h1>
+            </section>
+
+            <section class="slide quote">
+            <h1>
+                Don't take my word for it
+            </h1>
+            </section>
+
+            <section class="slide">
+            <h4>
+                bench.topcoat.io
+            </h4>
+            <a href="http://bench.topcoat.io" target="blank">
+                <img src="img/bench.topcoat.io.png">
+            </a>
+            </section>
+
+            <section class="slide">
+            <h4>
+                AnyConference
+            </h4>
+            <img src="img/AnyConference.png">
+            </section>
+
+            <section class="slide">
+            <h1>
+                Demo
+            </h1>
+            </section>
+
+            <section class="slide">
+            <h1>
+                Contribute
+                <section class="slide sub-slide">
+                open source not fauxpen source
+                </section>
+            </h1>
+            </section>
+
+            <!--
+            We want Topcoat to be community driven and are actively accepting external contribution.
+            This can be as easy as using it and filing issues.
+            -->
+
+            <section class="slide">
+            <h1>
+                <a href="http://www.topcoat.io" target="_blank">topcoat.io</a>
+                <section class="slide subslide">
+                <a href="https://twitter.com/dam">
+                    @dam
+                </a>
+                </section>
+            </h1>
+            </section>
+
+            <section class="slide quote">
+            <h1>
+                Thank you
+            </h1>
+            </section>
+
+            <!-- End slides. -->
+
+
+            <!-- Begin extension snippets. Add or remove as needed. -->
+
+            <!-- deck.navigation snippet -->
+            <!-- <a href="#" class="deck-prev-link" title="Previous">☜</a>
+            <a href="#" class="deck-next-link" title="Next">☞</a> -->
+
+            <!-- deck.status snippet -->
+            <p class="deck-status">
+            <span class="deck-status-current"></span>
+            /
+            <span class="deck-status-total"></span>
+            </p>
+
+            <!-- deck.goto snippet -->
+            <form action="." method="get" class="goto-form">
+                <label for="goto-slide">Go to slide:</label>
+                <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+                <datalist id="goto-datalist"></datalist>
+                <input type="submit" value="Go">
+            </form>
+
+            <!-- deck.hash snippet -->
+            <a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+            <!-- End extension snippets. -->
+
+
+            <!-- Required JS files. -->
+            <script src="jquery-1.7.2.min.js"></script>
+            <script src="core/deck.core.js"></script>
+
+            <!-- Extension JS files. Add or remove as needed. -->
+            <script src="core/deck.core.js"></script>
+            <script src="extensions/hash/deck.hash.js"></script>
+            <script src="extensions/menu/deck.menu.js"></script>
+            <script src="extensions/goto/deck.goto.js"></script>
+            <script src="extensions/status/deck.status.js"></script>
+            <script src="extensions/navigation/deck.navigation.js"></script>
+            <script src="extensions/scale/deck.scale.js"></script>
+
+            <!-- Initialize the deck. You can put this in an external file if desired. -->
+            <script>
+                $(function() {
+                    $.deck('.slide');
+                });
+            </script>
+
+        </div>
+
+    </body>
+</html>
